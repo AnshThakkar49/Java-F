@@ -12,7 +12,7 @@ public class Demo_ButtonClick extends Application
     public void start(Stage primaryStage)
     {
         BorderPane root = new BorderPane();
-        HBox h = new HBox();
+        HBox h = new HBox(5);
         root.setCenter(c1);
         Button b1 = new Button("Enlarge");
         Button b2 = new Button("Shrink");
