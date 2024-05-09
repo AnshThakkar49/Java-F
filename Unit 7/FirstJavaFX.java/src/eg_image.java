@@ -1,14 +1,19 @@
+import java.io.FileInputStream;
+
+import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.*;
-import javafx.stage.Stage;
+import javafx.stage.*;
 import javafx.scene.image.*;
-public class Ex_Image extends Application
+public class eg_image extends Application
 {
-    public void start(Stage primaryStage)
+    public void start(Stage primaryStage) throws IOException
     {
-        StackPane p = new StackPane();
-        Image ig = new Image("D:\\Programming\\Web Development\\WebDevelopment\\3\\Train.png");
+        Pane p = new StackPane();
+        FileInputStream fin = new FileInputStream("D:\\Programming\\Java\\Java\\Unit 7\\Sun.jpg");
+        Image ig = new Image(fin);
         ImageView imgview = new ImageView(ig);
         p.getChildren().add(imgview);
         Scene scene = new Scene(p);
@@ -18,6 +23,6 @@ public class Ex_Image extends Application
     }    
     public static void main(String[] args) 
     {
-        launch(args);
+        launch(args);        
     }
 }

@@ -3,13 +3,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import javafx.scene.image.*;
-public class Ex_Image extends Application
+public class App extends Application
 {
     public void start(Stage primaryStage)
     {
         StackPane p = new StackPane();
-        Image ig = new Image("D:\\Programming\\Web Development\\WebDevelopment\\3\\Train.png");
-        ImageView imgview = new ImageView(ig);
+        Image img = new Image("C:\Users\SHIVSHAKTI\Downloads\sunset-1373171_1280.jpg");
+        ImageView imgview = new ImageView();
         p.getChildren().add(imgview);
         Scene scene = new Scene(p);
         primaryStage.setTitle("Image");
@@ -18,6 +18,6 @@ public class Ex_Image extends Application
     }    
     public static void main(String[] args) 
     {
-        launch(args);
+        launch(args);        
     }
 }

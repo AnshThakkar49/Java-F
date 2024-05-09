@@ -6,9 +6,97 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Ex_Image",
+            "name": "Demo_ButtonClick",
             "request": "launch",
-            "mainClass": "Ex_Image",
+            "mainClass": "Demo_ButtonClick",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+
+        },
+        {
+            "type": "java",
+            "name": "Ex_Arc",
+            "request": "launch",
+            "mainClass": "Ex_Arc",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex_Ellipse",
+            "request": "launch",
+            "mainClass": "Ex_Ellipse",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex_Rectangle",
+            "request": "launch",
+            "mainClass": "Ex_Rectangle",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex_Line",
+            "request": "launch",
+            "mainClass": "Ex_Line",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex",
+            "request": "launch",
+            "mainClass": "Ex",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex__BorderPane",
+            "request": "launch",
+            "mainClass": "Ex__BorderPane",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex_GridPane",
+            "request": "launch",
+            "mainClass": "Ex_GridPane",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Ex_FlowPane",
+            "request": "launch",
+            "mainClass": "Ex_FlowPane",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Circul",
+            "request": "launch",
+            "mainClass": "Circul",
+            "projectName": "FirstJavaFX.java_33c0e9b1"
+        },
+        {
+            "type": "java",
+            "name": "Ex_Circ",
+            "request": "launch",
+            "mainClass": "Ex_Circ",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "eg_image",
+            "request": "launch",
+            "mainClass": "eg_image",
             "projectName": "FirstJavaFX.java_33c0e9b1",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
@@ -21,25 +109,17 @@
         },
         {
             "type": "java",
-            "name": "Ex_Font",
+            "name": "Ex_Image",
             "request": "launch",
-            "mainClass": "Ex_Font",
+            "mainClass": "Ex_Image",
             "projectName": "FirstJavaFX.java_33c0e9b1",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
-            "name": "Circul",
+            "name": "B",
             "request": "launch",
-            "mainClass": "Circul",
-            "projectName": "FirstJavaFX.java_33c0e9b1",
-            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "App2",
-            "request": "launch",
-            "mainClass": "App2",
+            "mainClass": "B",
             "projectName": "FirstJavaFX.java_33c0e9b1",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
@@ -48,14 +128,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "FirstJavaFX.java_33c0e9b1",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
