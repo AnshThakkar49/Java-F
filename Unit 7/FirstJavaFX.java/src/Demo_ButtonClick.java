@@ -4,13 +4,17 @@ import javafx.geometry.Pos;
 import javafx.scene.control.*;
 import javafx.scene.shape.Circle;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.stage.*;
-import javafx.scene.*;;
+import javafx.scene.*;
 public class Demo_ButtonClick extends Application
 {
     private final Circle c1 = new Circle(50);
     public void start(Stage primaryStage)
     {
+        c1.setFill(Color.WHITE);
+        c1.setStrokeWidth(10);
+        c1.setStroke(Color.BLACK);
         BorderPane root = new BorderPane();
         HBox h = new HBox(5);
         root.setCenter(c1);
@@ -22,7 +26,19 @@ public class Demo_ButtonClick extends Application
         h.getChildren().add(b3);
         h.setAlignment(Pos.CENTER);
         root.setBottom(h);
-        b1.setOnAction(new EnlargeCircle());
+        b1.setOnAction(new EnlargeCircle()); //Inner Class
+        b2.setOnAction(new EventHandler<ActionEvent>() //Annyonymous Inner Class
+        {
+            public void handle(ActionEvent e)
+        {
+            c1.setRadius(c1.getRadius()-2);
+        }
+            
+        });
+        b3.setOnAction(e-> //Lambda
+        {
+            c1.setRadius(50);
+        });
         Scene scene = new Scene(root,400,400);
         primaryStage.setTitle("BorderPane");
         primaryStage.setScene(scene);

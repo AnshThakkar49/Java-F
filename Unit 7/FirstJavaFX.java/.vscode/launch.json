@@ -6,12 +6,68 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LoanCalc",
+            "request": "launch",
+            "mainClass": "LoanCalc",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+
+        },
+        {
+            "type": "java",
+            "name": "Ex_FadeTransition",
+            "request": "launch",
+            "mainClass": "Ex_FadeTransition",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Prob1",
+            "request": "launch",
+            "mainClass": "Prob1",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Prob",
+            "request": "launch",
+            "mainClass": "Prob",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Demo_PathTransitionAnimation",
+            "request": "launch",
+            "mainClass": "Demo_PathTransitionAnimation",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Demo_KeyEvent",
+            "request": "launch",
+            "mainClass": "Demo_KeyEvent",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Demo_MouseEvent",
+            "request": "launch",
+            "mainClass": "Demo_MouseEvent",
+            "projectName": "FirstJavaFX.java_33c0e9b1",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Demo_ButtonClick",
             "request": "launch",
             "mainClass": "Demo_ButtonClick",
             "projectName": "FirstJavaFX.java_33c0e9b1",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
-
         },
         {
             "type": "java",
